@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Water Can Management — Features & Information</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; max-width: 860px; margin: 32px auto; line-height: 1.6; padding: 0 16px; color:#111;}
+    header h1 { margin: 0 0 8px; }
+    pre { background:#f6f8fa; padding:12px; overflow:auto; }
+    section + section { margin-top: 24px; }
+    a { color:#0969da; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .kbd { background:#eee; padding:2px 6px; border-radius:4px; font-family:monospace; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Water Can Management</h1>
+    <p><strong>Features & Information</strong></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Area-Wise Organization:</strong> Group customers by delivery locations for efficient routing.</li>
+        <li><strong>Detailed Records:</strong> Track total cans delivered, empty cans collected, and pending payments per customer.</li>
+        <li><strong>Direct Communication:</strong> Integrated WhatsApp support for delivery updates and payment reminders.</li>
+      </ul>
+
+      <h3>Transaction Tracking</h3>
+      <ul>
+        <li><strong>Daily Logs:</strong> Record deliveries and payments on the go.</li>
+        <li><strong>Balance Management:</strong> Automatically calculate pending balances.</li>
+        <li><strong>Flexible Pricing:</strong> Default per-can price with per-customer overrides.</li>
+      </ul>
+
+      <h3>Reports & Invoicing</h3>
+      <ul>
+        <li><strong>Custom Branding:</strong> Add company name, address, phone and GST details in settings.</li>
+        <li><strong>Shareable Reports:</strong> Generate and share transaction summaries.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Secure Google Drive Backup & Restore</h2>
+      <p>The app uses the Google Drive API for backups:</p>
+      <ul>
+        <li><strong>Manual Sync:</strong> Back up your database to your Google Drive.</li>
+        <li><strong>Easy Migration:</strong> Restore data when switching devices by signing in to your Google account.</li>
+        <li><strong>drive.file scope:</strong> The app only accesses the specific backup file it creates (<code>water_can_backup.db</code>).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Privacy & Transparency</h2>
+      <ul>
+        <li><strong>Offline Capability:</strong> Core operations work fully offline; internet is only for backups and ads.</li>
+        <li><strong>No Data Sharing:</strong> Customer data is not collected, sold, or shared.</li>
+        <li><strong>Monetization:</strong> Uses Google AdMob for non-intrusive ads to keep the app free.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Permissions Explained</h2>
+      <ul>
+        <li><strong>Internet & Network State:</strong> For backups and ad loading.</li>
+        <li><strong>Location:</strong> Optional — to help identify delivery locations.</li>
+        <li><strong>WhatsApp Query:</strong> To enable direct messaging for delivery confirmations.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Support & Developer Contact</h2>
+      <p><strong>Developer:</strong> G Navin Kumar</p>
+      <p><strong>Email:</strong> <a href="mailto:gnavinkumar46@gmail.com">gnavinkumar46@gmail.com</a></p>
+      <p><strong>Privacy Policy:</strong> <a href="https://sites.google.com/view/watercanapp-privacy-doc/home" target="_blank" rel="noopener">Full Privacy Policy</a></p>
+    </section>
+  </main>
+
+  <footer style="margin-top:32px; font-size:0.9em; color:#555;">
+    <p>Published for GitHub Pages. To serve the app-ads file from this folder place <span class="kbd">app-ads.txt</span> here and it will be available at <code>/watercanmanagement/app-ads.txt</code>.</p>
+  </footer>
+</body>
+</html>
